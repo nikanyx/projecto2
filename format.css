@@ -1,4 +1,4 @@
-	body {padding: 10px;}
+	body {padding-top: 10px;}
 
 	.container-box {
 	width: 100%;
@@ -10,12 +10,14 @@
 	grid-template-columns: 1fr 1fr;
 	-ms-grid-template-columns: 1fr 1fr;
 	grid-template-areas:
+		'.... aside'
 		'header aside'
 		'main main'
 		'pic pic'
 		'desc desc'
 		'footer footer';
 	-ms-grid-template-areas:
+		'.... aside'
 		'header aside'
 		'main main'
 		'pic pic'
@@ -25,7 +27,7 @@
 
 	.box {}
 
-	header {grid-area: header; -ms-grid-area: header; padding: 10px; font-size: large;}
+	header {grid-area: header; -ms-grid-area: header; padding: 10px; font-size: xx-large;}
 	aside {grid-area: aside; -ms-grid-area: aside; padding: 10px;}
 	main {grid-area: main; -ms-grid-area: main;}
 	div#pic {grid-area: pic; -ms-grid-area: pic;}
@@ -39,3 +41,4 @@
 	ol {padding-left: 10%;}
 	
 	table {width: 100%;}
+	td {width: 25vh;}
