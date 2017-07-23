@@ -16,7 +16,7 @@
 		margin: 0 auto;
 		display: grid;
 		grid-gap: 10px;
-		grid-template-columns: auto;
+		grid-template-columns: 20vh 40vh 40vh;
 		grid-template-areas:
 			'header header header'
 			'aside main main'
@@ -27,11 +27,11 @@
 		.box {background-color: #9009A0;}
 
 		header {grid-area: header; padding: 10px; font-size: large;}
-		aside {grid-area: aside;}
+		aside {grid-area: aside; padding: 10px;}
 		main {grid-area: main;}
 		div#pic {grid-area: pic;}
 		div#desc {grid-area: desc; padding: 10px;}
-		footer {grid-area: footer; padding: 10px;}
+		footer {grid-area: footer; padding: 10px; text-align: center;}
 		
 		.main {width: 100%;}
 		.sec-left {width: 49.4%;}
@@ -57,7 +57,7 @@
 			1.4.1 Pietro <br />
 			1.4.1.1 Diogo M. <br />
 			1.4.1.2 Giorgia <br />
-			1.4.2 Mafalda</aside>
+			1.4.2 Mafalda</p></aside>
 			<main class="box"><img src="Pictures\20170302-1.jpg" class="main"></main>
 			<div id="pic" class="box"><img src="Pictures\20170302-1.jpg" class="sec-left"><img src="Pictures\20170302-1.jpg" class="sec-right"></div>
 			<div id="desc" class="box"><p>O Juan divide o seu tempo entre a sua casa e a da namorada. Tem um violino que não costuma tocar.</p></div>
