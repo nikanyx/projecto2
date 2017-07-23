@@ -7,8 +7,8 @@
 	display: grid;
 	grid-gap: 10px;
 	-ms-grid-gap: 10px;
-	grid-template-columns: 50vh 50vh;
-	-ms-grid-template-columns: 50vh 50vh;
+	grid-template-columns: 1fr 1fr;
+	-ms-grid-template-columns: 1fr 1fr;
 	grid-template-areas:
 		'header aside'
 		'main main'
@@ -33,7 +33,9 @@
 	footer {grid-area: footer; -ms-grid-area: footer; padding: 10px; text-align: center; font-size: small;}
 	
 	.main {width: 100%;}
-	.sec-left {width: 49.4%; padding-bottom:5px; }
-	.sec-right {width: 49.4%; float:right; padding-bottom:5px; }
+	.sec-left {width: 49.4%; padding-bottom:10px; }
+	.sec-right {width: 49.4%; float:right; padding-bottom:10px; }
 	
 	ol {padding-left: 10%;}
+	
+	table {width: 100%;}
