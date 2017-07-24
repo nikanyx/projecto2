@@ -7,61 +7,29 @@
 		<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		<![endif]-->
-		<style>
-		body {padding: 10px;}
-
-		.container-box {
-		width: 100%;
-		max-width: 1080px;
-		margin: 0 auto;
-		display: grid;
-		grid-gap: 10px;
-		grid-template-columns: 20vh 40vh 40vh;
-		grid-template-areas:
-			'header header header'
-			'aside main main'
-			'aside pic pic'
-			'aside desc desc'
-			'footer footer footer';}
-
-		.box {background-color: #9009A0;}
-
-		header {grid-area: header; padding: 10px; font-size: large;}
-		aside {grid-area: aside; padding: 10px;}
-		main {grid-area: main;}
-		div#pic {grid-area: pic;}
-		div#desc {grid-area: desc; padding: 10px;}
-		footer {grid-area: footer; padding: 10px; text-align: center;}
-		
-		.main {width: 100%;}
-		.sec-left {width: 49.4%;}
-		.sec-right {width: 49.4%; float:right;}
-		</style>
+		<link rel="stylesheet" type="text/css" href="format.css">
 	</head>
 	<body>
 		<div class="container-box">
-			<header class="box">1.4 Juan</header>
-			<aside class="box"><p>
-			1. Carolina<br />
-			1.1 Tiago <br />
-			1.1.1 Diogo F. <br />
-			1.1.1.1 Catarina <br />
-			1.1.2 Gonçalo <br />
-			1.1.2.1 Oihane <br />
-			1.1.2.2 Dennis <br />
-			1.2 Raquel <br />
-			1.2.1 Leonor F. <br />
-			1.2.2 Leonor O. <br />
-			1.3 Diana  <br />
-			1.4 Juan <br />
-			1.4.1 Pietro <br />
-			1.4.1.1 Diogo M. <br />
-			1.4.1.2 Giorgia <br />
-			1.4.2 Mafalda</p></aside>
-			<main class="box"><img src="Pictures\20170302-1.jpg" class="main"></main>
-			<div id="pic" class="box"><img src="Pictures\20170302-1.jpg" class="sec-left"><img src="Pictures\20170302-1.jpg" class="sec-right"></div>
+			<header class="box"><a href="index.html">Sombras</a><p style="font-size: small; font-style: italic; margin: 0px 0px 0px 20px">Carolina Colaço Pereira</p></header>
+			<div id="name" class="box"></div>
+			<aside class="box">
+			<table>
+			  <tr><td>1. Carolina</td><td>1. Tiago</td><td>1. <a href="diogof.html">Diogo F.</a></td><td>1. <a href="catarinam.html">Catarina M.</a></td></tr>
+			  <tr><td></td><td></td><td>2. <a href="goncalo.html">Gonçalo</a></td><td>1. <a href="oihane.html">Oihane</a></td></tr>
+			  <tr><td></td><td></td><td></td><td>2. <a href="dennis.html">Dennis</a></td></tr>
+			  <tr><td></td><td></td><td>3. <a href="catarinav.html">Catarina V.</a></td><td></td></tr>
+			  <tr><td></td><td>2. <a href="raquel.html">Raquel</a></td><td>1. <a href="leonorf.html">Leonor F.</a></td><td></td></tr>
+			  <tr><td></td><td></td><td>2. <a href="leonoro.html">Leonor O.</a></td><td></td></tr>
+			  <tr><td></td><td>3. <a href="diana.html">Diana</a></td><td></td><td></td></tr>
+			  <tr><td></td><td>4. <a href="juan.html">Juan</a></td><td>1. <a href="pietro.html">Pietro</a></td><td>1. <a href="diogom.html">Diogo M.</a></td></tr>
+			  <tr><td></td><td></td><td></td><td>2. <a href="giorgia.html">Giorgia</a></td></tr>
+			</table>
+			</aside>
+			<main class="box"></main>
+			<div id="pic" class="box"></div>
 			<div id="desc" class="box"><p>O Juan divide o seu tempo entre a sua casa e a da namorada. Tem um violino que não costuma tocar.</p></div>
-			<footer class="box"><p>Projecto realizado no âmbito da cadeira Projecto II da licenciatura em Arte Multimédia da Faculdade de Belas-Artes da Universidade de Lisboa.</p></footer>
+			<footer class="box"><p>Trabalho realizado no âmbito da cadeira Projecto II da licenciatura em Arte Multimédia da Faculdade de Belas-Artes da Universidade de Lisboa.</p></footer>
 		</div>
 	</body>
 </html>

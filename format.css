@@ -1,44 +1,53 @@
-	body {padding-top: 10px;}
+body {padding-top: 10px;}
 
-	.container-box {
-	width: 100%;
-	max-width: 1080px;
-	margin: 0 auto;
-	display: grid;
-	grid-gap: 10px;
-	-ms-grid-gap: 10px;
-	grid-template-columns: 1fr 1fr;
-	-ms-grid-template-columns: 1fr 1fr;
-	grid-template-areas:
-		'.... aside'
-		'header aside'
-		'main main'
-		'pic pic'
-		'desc desc'
-		'footer footer';
-	-ms-grid-template-areas:
-		'.... aside'
-		'header aside'
-		'main main'
-		'pic pic'
-		'desc desc'
-		'footer footer';
-	}
+.container-box {
+width: 100%;
+max-width: 1080px;
+margin: 0 auto;
+display: grid;
+grid-gap: 10px;
+-ms-grid-gap: 10px;
+grid-template-columns: 1fr 1fr;
+-ms-grid-template-columns: 1fr 1fr;
+grid-template-areas:
+	'header aside'
+	'.... aside'
+	'name aside'
+	'main main'
+	'pic pic'
+	'desc desc'
+	'footer footer';
+-ms-grid-template-areas:
+	'header aside'
+	'.... aside'
+	'name aside'
+	'main main'
+	'pic pic'
+	'desc desc'
+	'footer footer';
+}
 
-	.box {}
+.box {}
 
-	header {grid-area: header; -ms-grid-area: header; padding: 10px; font-size: xx-large;}
-	aside {grid-area: aside; -ms-grid-area: aside; padding: 10px;}
-	main {grid-area: main; -ms-grid-area: main;}
-	div#pic {grid-area: pic; -ms-grid-area: pic;}
-	div#desc {grid-area: desc; -ms-grid-area: desc; font-size: x-large;}
-	footer {grid-area: footer; -ms-grid-area: footer; padding: 10px; text-align: center; font-size: small;}
+header {grid-area: header; -ms-grid-area: header; padding: 10px; font-size: xx-large;}
+div#name {grid-area: name; -ms-grid-area: name; padding: 10px; font-size: xx-large;}
+aside {grid-area: aside; -ms-grid-area: aside; padding: 10px;}
+main {grid-area: main; -ms-grid-area: main;}
+div#pic {grid-area: pic; -ms-grid-area: pic;}
+div#desc {grid-area: desc; -ms-grid-area: desc; font-size: x-large;}
+footer {grid-area: footer; -ms-grid-area: footer; padding: 10px; text-align: center; font-size: small;}
+
+.main {width: 100%;}
+.sec-left {width: 49.4%; padding-bottom:10px; }
+.sec-right {width: 49.4%; float:right; padding-bottom:10px; }
 	
-	.main {width: 100%;}
-	.sec-left {width: 49.4%; padding-bottom:10px; }
-	.sec-right {width: 49.4%; float:right; padding-bottom:10px; }
+ol {padding-left: 10%;}
 	
-	ol {padding-left: 10%;}
+table {width: 100%;}
+td {width: 25vh;}
 	
-	table {width: 100%;}
-	td {width: 25vh;}
+a {color: black;}
+a:link {text-decoration: underline;}
+a:visited {text-decoration: underline;}
+a:hover {}
+a:active {text-decoration: none;}
