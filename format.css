@@ -31,7 +31,7 @@ grid-template-areas:
 
 header {grid-area: header; -ms-grid-area: header; padding: 10px; font-size: xx-large;}
 div#name {grid-area: name; -ms-grid-area: name; padding: 10px; font-size: xx-large;}
-aside {grid-area: aside; -ms-grid-area: aside; padding: 10px;}
+aside {grid-area: aside; -ms-grid-area: aside; padding: 10px; background:url(pictures/menu.jpg) no-repeat;background-size:100% 220px;min-width:400px;}
 main {grid-area: main; -ms-grid-area: main;}
 div#pic {grid-area: pic; -ms-grid-area: pic;}
 div#desc {grid-area: desc; -ms-grid-area: desc; font-size: x-large;}
